@@ -3,7 +3,7 @@
 
 int main(int argc, char* argv[])
 {
-  auto skel = dynamics::Skeleton::create();
+  auto skel = dart::dynamics::Skeleton::create();
   std::cout << "Skeleton [" << skel->getName() << "] has ["
             << skel->getNumBodyNodes() << "] bodies.\n";
   return 0;
